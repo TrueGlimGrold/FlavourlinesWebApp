@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<div class="main-content">
+    <div class="section-main">
+        <div class="cart-main">
+            <h2 class="main-alert">This is an alert</h2>
+            <h1>Your Cart (2 items)</h1>
+            <hr>
+            <div class="cart-item">
+                <img src="../../images/products/product-1-placeholder.jpg">
+                <div class="right-column">
+                    <div class="cart-title-section">
+                        <div class="text">
+                            <h2>Cream Soda - 12 fl. oz</h2>
+                            <h3>CA$??.??</h3>
+                        </div>
+
+                        <div class="cart-num-container">
+                            <div class="quantity-box ">
+                                <button type="button" class="button"> <span class="is-srOnly"></span><b>-</b></button>
+                                <input type="text" id="txtAcrescimo" class="qty form-input form-input--incrementTotal" value="1">
+                                <button type="button" class="button"><span class="is-srOnly"></span><b>+</b></button>
+                            </div>
+                            <!-- Consider adding a kart icon -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="../../images/products/product-1-placeholder.jpg">
+                <div class="right-column">
+                    <div class="cart-title-section">
+                        <div class="text">
+                            <h2>Root Beer - 12 fl. oz</h2>
+                            <h3>CA$??.??</h3>
+                        </div>
+
+                        <div class="cart-num-container">
+                            <div class="quantity-box ">
+                                <button type="button" class="button"> <span class="is-srOnly"></span><b>-</b></button>
+                                <input type="text" id="txtAcrescimo" class="qty form-input form-input--incrementTotal" value="1">
+                                <button type="button" class="button"><span class="is-srOnly"></span><b>+</b></button>
+                            </div>
+                            <!-- Consider adding a kart icon -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h1>Total: CA$19.95</h1>
+            <hr>
+            <div class="receipt">
+                <p>Subtotal:</p>
+                <p class="r-subtotal align-right">CA$19.95</p>
+                <p>Shipping:</p>
+                <p class="r-shipping align-right">Add Info</p>
+                <p>Coupon Code:</p>
+                <p class="r-coupon align-right">Add Coupon</p>
+                <p>Gift Certificate:</p>
+                <p class="r-gift align-right">Gift Certificate</p>
+                <p>Grand total:</p>
+                <p class="r-total align-right">CA$19.95</p>
+            </div>
+            <button type="button" class="checkout-button"><span class="button"></span><b>Checkout</b></button>
+        </div>
+    </div>
+</div>
+
